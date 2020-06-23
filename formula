@@ -1,0 +1,8 @@
+#!/usr/ibn/env Python3
+#-*-  coding:utf-8 -*-
+
+l1=[x for x in range(6) if x//2==2]
+print(l1)
+
+odd= [x for x in range(10) if x%2!=0]
+print(odd)
