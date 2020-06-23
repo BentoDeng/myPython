@@ -1,0 +1,26 @@
+#!/usr/ibn/env Python3
+#-*-  coding:utf-8 -*-
+
+empty=set()
+print ("这是一个空集合",set())
+print ("这是一个空集合",empty)
+print ("这是一个列表数据类型",set)
+
+set1={1,2,"π"}
+print (set1)
+
+set2={1,2,3}
+print (type(set2))
+print (type(set1))
+set2.add('π')
+print (set2)
+set2.remove(2)
+print (set2)
+
+print("交集", set1 & set2)
+print("并集", set1 | set2)
+print("差集", set2 - set1)
+print("差集", set1 - set1)
+print("差集", set1 - set2)
+print("对称差集", set1 ^ set2)
+
