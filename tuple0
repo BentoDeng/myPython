@@ -1,0 +1,5 @@
+l1 = ["hello", "google", "baidu", "tencent"]
+print(l1)
+print("remove")
+l1.remove("baidu")
+print(l1)
