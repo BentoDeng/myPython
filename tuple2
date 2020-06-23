@@ -1,0 +1,12 @@
+l1=[1,2,3,4,5]
+print(l1)
+print("pop()")
+r1=l1.pop()
+print("result",l1)
+print("list",l1)
+print("---------------------------")
+l2=[1,2,3,4,5]
+print("pop(2)")
+r2=l2.pop(2)
+print("result",r2)
+print("list",l2)
