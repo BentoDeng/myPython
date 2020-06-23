@@ -1,0 +1,22 @@
+#!/usr/ibn/env Python3
+#-*-  coding:utf-8 -*-
+
+english={
+    "we": "我们",
+    "world": "世界",
+    "company": "公司",
+}
+
+print("world:",english.get("world"))
+print("company:",english.get("company"))
+print("world:",english ["world"])
+print("cognizance:",english.get("cognizance","未知"))
+print("all keys:",english.keys())#返回所有键值
+print("all values:",english.values())#返回所有值
+print("all keys_values:", english)#返回所有键
+print("all keys_values:", english.items())#返回所有各自的键值列表
+print("Does the word world exist? :","world" in english.keys())
+print("Does the word city exist? :","city" in english.keys())
+
+for k, v in english.items():  #巧妙用item函数遍历一个字典
+    print(k,"=>",v)
