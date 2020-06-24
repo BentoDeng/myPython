@@ -1,0 +1,7 @@
+#!/usr/ibn/env Python3
+#-*-  coding:utf-8 -*-
+
+x=0
+while x<=1000:
+    print(x)
+    x+=1
