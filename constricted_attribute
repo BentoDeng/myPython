@@ -1,0 +1,28 @@
+#!/usr/bin/env Python3
+#-*-  coding:utf-8 -*-
+
+class Cat:
+    def __init__(self,name,sex,age):
+        self.name= name
+        self.sex=sex
+        self.__age=age
+
+    def set_age(self,age):
+        if not isinstance(age , int):
+            print("请输入数字")
+            return False
+        if age<=0:
+            print("no less than zero")
+            return False
+        self.__age = age
+
+    def frolic_play_Cat(self):
+        print ("meow,meow,","I am",self.name ,"and a", self.__age,"-years-old", self.sex)
+
+catty1 = Cat("catty1","f",9)
+set_sex=99
+catty1.frolic_play_Cat()
+
+catty2 = Cat("catty2","m",-7)
+catty2.set_age(-7)
+catty2.frolic_play_Cat()

@@ -1,0 +1,8 @@
+#!/usr/bin/env Python3
+#-*-  coding:utf-8 -*-
+
+def defalt_value_debutante(name, age=25):
+    print("Every one, this is our new colleague,",name, age)
+
+defalt_value_debutante(name="bento")#上传关键字参数
+defalt_value_debutante("bento")#上传必须参数

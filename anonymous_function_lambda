@@ -1,0 +1,14 @@
+#!/usr/bin/env Python3
+#-*-  coding:utf-8 -*-
+
+def add (x,y):
+    print(x+y)
+
+add(3,9)
+
+
+result=lambda x,y: x+y
+print(result)
+
+z=result(3,9)
+print(z)

@@ -1,0 +1,23 @@
+#!/usr/bin/env Python3
+#-*-  coding:utf-8 -*-
+
+def add (x,y):
+    """
+    返回参数x和y的两数之和
+
+parameters
+ --------------------------------------
+ x: int
+    第一个参数
+ y: int
+    第二个参数
+Returns
+---------------------------------------
+int
+    返回x+y
+"""
+    return x+y
+
+print(add(3,9))
+print(add.__doc__)
+help(add)

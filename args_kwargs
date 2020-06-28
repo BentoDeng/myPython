@@ -1,0 +1,20 @@
+#!/usr/bin/env Python3
+#-*-  coding:utf-8 -*-
+
+def customer_order(*args,**kwargs):
+    for x in args:
+        print(x)
+    for y,z in kwargs.items():
+        print(y,z)
+
+customer_order("suntan lotion","$78",20200625,name="bento")
+
+
+def exp (*args,**kwargs):
+    print(args,kwargs)
+
+l=["anti-inflamation pills","$68",20200615]
+d={"name":"bento","age":25}
+
+exp(*l,**d)
+exp(l,d)

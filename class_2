@@ -1,0 +1,14 @@
+#!/usr/bin/env Python3
+#-*-  coding:utf-8 -*-
+
+class Cat:
+    def __init__(self,name, age, sex):
+        self.name=name
+        self.sex=sex
+        self.age=age
+
+    def frolic_play_Cat(self):
+        print ("meow,meow,","I am",self.name ,"and a", self.age,"-years-old", self.sex)
+
+catty1 = Cat("catty1",3,"f")
+catty1.frolic_play_Cat()

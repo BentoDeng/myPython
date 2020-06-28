@@ -1,0 +1,19 @@
+#!/usr/bin/env Python3
+#-*-  coding:utf-8 -*-
+
+class Cat:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+
+    def frolic_play(self):
+        print("meow,meow,meowwww,I am", self.name, "and",self.age, "-years-old")
+
+cat1=Cat("cat1",5)
+cat1.frolic_play()
+
+class Bluecat(Cat):
+    pass
+
+cat2= Bluecat("cat2",7)
+cat2.frolic_play()

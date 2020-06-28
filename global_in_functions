@@ -1,0 +1,52 @@
+#!/usr/bin/env Python3
+#-*-  coding:utf-8 -*-
+
+x = "out of the function"
+
+def global_in_functions1 ():
+    global x
+    x="inside the function"
+    print(x)
+    return x
+
+
+global_in_functions1 ()
+print("---------------------------------------------")
+
+def global_in_functions2 ():
+    x="inside the function"
+    return x
+
+result= global_in_functions2 ()
+print(result)
+
+print("---------------------------------------------")
+
+def global_in_functions3 ():
+    x="inside the function"
+    return x
+
+result= global_in_functions3 ()
+print(result)
+
+print("---------------------------------------------")
+
+def global_in_functions3 ():
+    r1 = "return value1"
+    r2 = "return value2"
+    r3 = "return value3"
+    return r1,r2,r3
+
+result= global_in_functions3 ()
+print(result)
+
+print("---------------------------------------------")
+
+def global_in_functions3 ():
+    r1 = "return value1"
+    r2 = "return value2"
+    r3 = "return value3"
+    return r1,r2,r3
+
+r1,r2,r3 = global_in_functions3 ()
+print(r1,r2,r3 )
