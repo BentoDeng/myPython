@@ -1,0 +1,17 @@
+import math
+
+print("567^6",pow(567,6))
+print("28^-1",pow(28,-1))
+
+print("log2e", math.log(math.e,2))
+print("log10 100",math.log(10,100))
+
+print("qurt(3)",math.sqrt(3))
+print("qurt(4.5)",math.sqrt(4.5))
+
+print("sin(pi/2)",math.sin(math.pi/2))
+print("cos(pi)",math.cos(math.pi))
+print("tan(0),math.tan(0)")
+
+print(math.degrees(math.pi/2))
+print(math.radians(60))

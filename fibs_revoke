@@ -1,0 +1,16 @@
+#!/usr/bin/env Python
+
+import module1
+
+print(module1)
+
+print(module1.__name__)
+
+print(__name__)
+
+if __name__=="__main__":
+    print("当前程序被运行")
+else:
+    print("当前文件被作为模块引用")
+
+print(dir(module1))

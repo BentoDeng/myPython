@@ -1,0 +1,15 @@
+#!/usr/bin/env Python3
+#-*-  coding:utf-8 -*-
+
+import os
+print(__file__)
+
+print(os.path.dirname(__file__))
+
+print(os.getcwd())
+
+os.chdir("c:\\Users\\Dosra\\Desktop\\ab")
+
+print(os.getcwd())
+
+os.rename("a.txt", "b.txt")
