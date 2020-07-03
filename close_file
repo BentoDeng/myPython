@@ -1,0 +1,12 @@
+#!/usr/bin/env Python
+# -*- coding:UTF-8 -*-
+
+f=None
+try:
+    f=open("file2.txt","r")
+    print(f.read())
+except IOError:
+    print("IOError")
+finally:
+    if f:
+        f.close()

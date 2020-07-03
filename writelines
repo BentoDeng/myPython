@@ -1,0 +1,11 @@
+#!/usr/bin/env Python
+# -*- coding:UTF-8 -*-
+
+f=open("file2.txt","w+")
+
+lines=[]
+for i in range(1000):
+    lines.append(str(i))
+
+f.writelines(lines)
+f.close()
